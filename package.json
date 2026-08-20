@@ -8,7 +8,8 @@
     "server": "tsx watch server/index.ts",
     "client": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node --experimental-strip-types --test test/api.test.ts"
   },
   "dependencies": {
     "express": "^4.21.0",
